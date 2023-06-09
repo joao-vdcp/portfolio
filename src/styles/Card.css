@@ -1,0 +1,44 @@
+.card {
+    background-color: var(--background);
+    border-radius: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+
+.card-body {
+    padding: 0 20px 15px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+
+.badge {
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 50rem;
+    padding: 0.35em 0.65em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.card-buttons {
+    display: flex;
+    height: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.card-body a {
+    text-decoration: none;
+    color: var(--accent);
+    margin: 0;
+    padding: 0;
+}
+
+.card-body a:hover {
+    color: var(--accent-hover);
+
+}

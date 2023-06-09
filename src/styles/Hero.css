@@ -27,14 +27,3 @@ h1 {
     margin: 50px 0;
 }
 
-.hero-button {
-    color: #1c494c;
-}
-.hero-button:hover {
-    color: #5269bd;
-}
-
-.bi-arrow-right {
-    margin-left: 5px;
-}
-

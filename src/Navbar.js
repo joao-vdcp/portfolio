@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/Navbar.css";
+import Button from './Button'
 
 function Navbar() {
     return (
@@ -12,7 +13,7 @@ function Navbar() {
                     <li className='link main'><a href="#skills">Skills</a></li>
                     <li className='link main projects'><a href="#projects">Projects</a></li>
                     <li className='link'></li>
-                    <li className='link main'><a href="#contact">Contact</a></li>
+                    <li className='link main'><Button link="#contact" text="Contact"/></li>
                 </ul>
 
             </nav>

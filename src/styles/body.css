@@ -1,0 +1,25 @@
+html, body {
+    margin:0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    overflow-x:hidden;
+    background-color: var(--background);
+    color: var(--text);
+    scroll-behavior: smooth;
+
+}
+
+:root {
+    --background: #fcf8f9;
+    --text: #110310;
+    --primary: #78cc80;
+    --secundary: #77bba0;
+    --accent: #bc94d6;
+    --accent-hover: #9c7ab3;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0 0 30px 0;
+    color: var(--secundary);
+}

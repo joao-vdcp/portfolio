@@ -1,13 +1,3 @@
-:root {
-    --bg: #f7f8f9;
-    --line: #5269bd;
-    --fill: #9bdabe;
-    --text: #1c494c;
-    --subtext: #73cadc;
-    --duo: #9bdabe;
-}
-
-
 #about {
     display: flex;
     width: 100vw;
@@ -39,24 +29,8 @@
     border-radius: 10%;
 }
 
-h2 {
-    font-size: 3rem;
-    margin: 0 0 30px 0;
-}
-
 .dot {
-    color:var(--subtext) ;
-}
-
-.about-button {
-    color: var(--text);
-    font-size: 1.2rem ;
-}
-.about-button:hover {
-    color: var(--line);
-}
-.bi-arrow-right {
-    margin-left: 5px;
+    color: var(--accent);
 }
 
 
