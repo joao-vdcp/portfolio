@@ -12,7 +12,7 @@ const cards = [
         key: 2,
         title: "Keeper App",
         description: "App designed so you will never forget anything.",
-        img: '/images/project-1.png',
+        img: '/images/project-2.png',
         badges: ['HTML', 'CSS', 'Javascript', 'React'],
         demolink: 'https://www.google.com.br',
         github: 'https://www.google.com.br'
