@@ -20,7 +20,7 @@ function About (){
                 <img src='images/profile-pic.png' alt='Joao'></img>
             </div>
         </div>
-        </section>
+        </section> 
     </>
     ) 
 }

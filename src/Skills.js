@@ -1,15 +1,6 @@
-import React, { useState} from 'react';
 import './styles/Skills.css';
-import SkillsDropDown from './SkillsDropDown';
 
 function Skills (){
-
-    const [isClicked, setClick] = useState(false);
-
-    function handleClick (id) {
-        setClick(!isClicked);
-    }
-
 
     return (
         <>
@@ -19,24 +10,24 @@ function Skills (){
                 <h2>Skills<span className='dot'>.</span></h2>
 
                 <div className='frontend'>
-                    <SkillsDropDown onClick={handleClick} skill="Front-end"/>
-                    <div style={{ display: isClicked ? "grid" : "none"}} className='frontend-grid'>
+                <p>Front-end</p>
+                    <div className='frontend-grid'>
                     <img src='images/html.png' alt='html logo'/>
                     <img src='images/css.png' alt='css logo'/>
                     <img src='images/bootstrap.png' alt='bootstrap logo'/>
-                    <img src='images/javascript.png' alt='javascript logo'/>
-                    <img src='images/react.png' alt='react logo'/>
+                    <img className="row-3" src='images/javascript.png' alt='javascript logo'/>
+                    <img className="row-3" src='images/react.png' alt='react logo'/>
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>Bootstrap</span>
-                    <span>Javascript</span>
-                    <span>React</span>
+                    <span className="row-4 javascript">Javascript</span>
+                    <span className="row-4 react">React</span>
                     </div>                             
                 </div>
 
                 <div className='backend'>
-                    <SkillsDropDown onClick={handleClick} skill="Back-end"/>
-                    <div style={{ display: isClicked ? "grid" : "none"}} className='backend-grid'>
+                <p >Back-end</p>
+                    <div className='backend-grid'>
                     <img src='images/nodejs.png' alt='nodejs logo'/>
                     <img src='images/mongodb.png' alt='mongodb logo'/>
                     <img src='images/sql.png' alt='sql logo'/>
@@ -47,8 +38,8 @@ function Skills (){
                 </div>
 
                 <div className='other'>
-                    <SkillsDropDown onClick={handleClick} skill="Other"/>
-                    <div style={{ display: isClicked ? "grid" : "none"}} className='other-grid'>
+                <p>Other</p>
+                    <div className='other-grid'>
                     <img src='images/git.png' alt='git logo'/>
                     <img src='images/vscode.png' alt='vscode logo'/>
                     <span>Git</span>

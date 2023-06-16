@@ -16,7 +16,7 @@ ul {
     grid-template-columns: repeat(7, 1fr);
     width: 70vw;
     align-items: center;
-    text-align: center;
+    text-align: center; 
 }
 
 nav li.main a {
@@ -30,6 +30,7 @@ nav li.main a:hover {
 }
 
 .name {
+    display: block;
     font-size: 2rem;
     font-family: 'Pacifico', cursive;
 }
@@ -45,4 +46,60 @@ nav li.main a:hover {
 
 .projects {
     text-align: left;
+}
+
+@media (max-width: 992px) {
+    .link {
+        font-size: 21px;
+    }
+    .name {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .link {
+        font-size: 24px;
+    }
+    .name {
+        font-size: 32px;
+    }
+    .grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(5, 1fr);
+        width: 90vw;
+    }
+    .empty {
+        display: none;
+    }
+    .about, .projects {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .name {
+        display: none;
+    }
+
+    .link {
+        font-size: 28px;
+    }
+    .grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(3, 1fr);
+        width: 95vw;
+    }
+    .empty {
+        display: none;
+    }
+    .li-button {
+        grid-area: 1 / 1 / 2 /  4;
+    }
+    .about, .projects {
+        text-align: center;
+    }
 }
