@@ -1,10 +1,9 @@
-import react from 'react'
 import './styles/Contact.css'
 
 function Contact (){
     return (
         <>
-        <section id='contact'>
+        <section id='contact' >
         <div className='contact-main'>
 
         <h2>Let's talk<span>!</span></h2>

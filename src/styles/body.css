@@ -10,7 +10,7 @@ html, body {
 }
 
 :root {
-    --background: #fcf8f9;
+    --background: #f8f8fc;
     --text: #110310;
     --primary: #78cc80;
     --secundary: #77bba0;
@@ -22,4 +22,16 @@ h2 {
     font-size: 3rem;
     margin: 0 0 30px 0;
     color: var(--secundary);
+}
+
+.reveal {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 2s ease;
+    
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
 }

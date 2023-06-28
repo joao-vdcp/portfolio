@@ -5,7 +5,7 @@ import Button from './Button'
 function About (){
     return (
         <>
-        <section id='about'>
+        <section id='about' className='reveal'>
         <div className='about-container'>
             <div className='about-text'>
              <h2>About me<span className='dot'>.</span></h2>

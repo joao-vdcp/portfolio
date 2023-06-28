@@ -6,7 +6,7 @@ import cards from './cards'
 function Projects(){
     return (
         <>
-        <section id='projects'>
+        <section id='projects' className='reveal'>
             <div className='projects-container'>
             <h2 className='projects-header'>Projects<span>.</span></h2>
 
